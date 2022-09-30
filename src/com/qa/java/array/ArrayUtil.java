@@ -63,8 +63,25 @@ public class ArrayUtil {
 		
 	}
 	
+	Product getSmallestPrice(Product[] prods ) {
+		Product product = null;
+		double smallestPrice = prods[0].price;
+		//int smallestPrice = prod[0];
+		for (Product prod : prods ) {
+			if (prod.price < smallestPrice ) {
+				
+				smallestPrice = prod.price;			
+				product = prod;				
+			}
+			
+				}
+		return product;
+		
+	}
+}
+	
 	
 	
 	
 
-}
+

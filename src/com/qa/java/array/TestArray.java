@@ -4,7 +4,7 @@ public class TestArray {
 
 	public static void main(String[] args) {
 
-		int[] numbers = {11,6,2,8,23,9,12,7};
+		int[] numbers = {11,6,2,8,23,3,12,7};
 		
 //		for(int number : numbers) {
 //			System.out.println(number);
